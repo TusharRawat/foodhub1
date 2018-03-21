@@ -1,0 +1,274 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class contactus_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        \n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        \n");
+      out.write("        <meta charset=\"UTF-8\">\n");
+      out.write("        <meta charset=\"utf-8\">\n");
+      out.write("  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
+      out.write("  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n");
+      out.write("  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n");
+      out.write("  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n");
+      out.write("  \n");
+      out.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n");
+      out.write("<style>\n");
+      out.write("#nav_bar_h\n");
+      out.write("{\n");
+      out.write("    margin-top: -5px;\n");
+      out.write("    padding: -5px;\n");
+      out.write("}    \n");
+      out.write("#contact_us\n");
+      out.write("{\n");
+      out.write("    \n");
+      out.write("   \n");
+      out.write("    margin-top: -70px;\n");
+      out.write("}\n");
+      out.write("\n");
+      out.write("#login-dp\n");
+      out.write("{\n");
+      out.write("    min-width: 250px;\n");
+      out.write("    padding: 14px 14px 0;\n");
+      out.write("    overflow:hidden;\n");
+      out.write("    background-color:rgba(255,255,255,.8);\n");
+      out.write("}\n");
+      out.write("#login-dp .help-block\n");
+      out.write("{\n");
+      out.write("    font-size:12px    \n");
+      out.write("}\n");
+      out.write("#login-dp .bottom\n");
+      out.write("{\n");
+      out.write("    background-color:rgba(255,255,255,.8);\n");
+      out.write("    border-top:1px solid #ddd;\n");
+      out.write("    clear:both;\n");
+      out.write("    padding:14px;\n");
+      out.write("}\n");
+      out.write("#login-dp .social-buttons\n");
+      out.write("{\n");
+      out.write("    margin:12px 0    \n");
+      out.write("}\n");
+      out.write("#login-dp .social-buttons a\n");
+      out.write("{\n");
+      out.write("    width: 49%;\n");
+      out.write("}\n");
+      out.write("#login-dp .form-group\n");
+      out.write("{\n");
+      out.write("    margin-bottom: 10px;\n");
+      out.write("}\n");
+      out.write(".btn-fb\n");
+      out.write("{\n");
+      out.write("    color: #fff;\n");
+      out.write("    background-color:#3b5998;\n");
+      out.write("}\n");
+      out.write(".btn-fb:hover\n");
+      out.write("{\n");
+      out.write("    color: #fff;\n");
+      out.write("    background-color:#496ebc \n");
+      out.write("}\n");
+      out.write(".btn-tw\n");
+      out.write("{\n");
+      out.write("    color: #fff;\n");
+      out.write("    background-color:#55acee;\n");
+      out.write("}\n");
+      out.write(".btn-tw:hover\n");
+      out.write("{\n");
+      out.write("    color: #fff;\n");
+      out.write("    background-color:#59b5fa;\n");
+      out.write("}\n");
+      out.write("@media(max-width:768px)\n");
+      out.write("{\n");
+      out.write("    #login-dp{\n");
+      out.write("        background-color: inherit;\n");
+      out.write("        color: #fff;\n");
+      out.write("    }\n");
+      out.write("#login-dp .bottom\n");
+      out.write("{\n");
+      out.write("        background-color: inherit;\n");
+      out.write("        border-top:0 none;\n");
+      out.write("    }\n");
+      out.write("    \n");
+      out.write("}\n");
+      out.write("\n");
+      out.write("body, h1,h2,h3,h4,h5,h6 {font-family: \"Montserrat\", sans-serif}\n");
+      out.write(".w3-row-padding img {margin-bottom: 12px}\n");
+      out.write("/* Set the width of the sidebar to 120px */\n");
+      out.write(".w3-sidebar {width: 120px;background: #222;}\n");
+      out.write("/* Add a left margin to the \"page content\" that matches the width of the sidebar (120px) */\n");
+      out.write("#main {margin-left: 120px}\n");
+      out.write("/* Remove margins from \"page content\" on small screens */\n");
+      out.write("@media only screen and (max-width: 600px) {#main {margin-left: 0}}\n");
+      out.write("</style>\n");
+      out.write("\n");
+      out.write("        <title>JSP Page</title>\n");
+      out.write("    </head>\n");
+      out.write("    <body style=\"background-image: url(http://res.cloudinary.com/dxrvxsdaf/image/upload/c_fit,h_768,w_1366/v1519647198/1920x1080-data_out_35_164298675-food-wallpapers.jpg); \">\n");
+      out.write("<div id=\"nav_bar_h\">\n");
+      out.write("        <nav class=\"navbar navbar-default navbar-inverse\" role=\"navigation\">\n");
+      out.write("  <div class=\"container-fluid\">\n");
+      out.write("    <!-- Brand and toggle get grouped for better mobile display -->\n");
+      out.write("    <div class=\"navbar-header\" >\n");
+      out.write("      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n");
+      out.write("        <span class=\"sr-only\">Toggle navigation</span>\n");
+      out.write("        <span class=\"icon-bar\"></span>\n");
+      out.write("        <span class=\"icon-bar\"></span>\n");
+      out.write("        <span class=\"icon-bar\"></span>\n");
+      out.write("      </button>\n");
+      out.write("        <a class=\"navbar-brand\" href=\"#\" style=\"font-family: 'Bauhaus 93'; font-size: 35px;\">FoodHub</a>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n");
+      out.write("      <ul class=\"nav navbar-nav\">\n");
+      out.write("        <li ><a href=\"MainHomePage.jsp\">Home</a></li>\n");
+      out.write("        <li><a href=\"aboutus.jsp\">About Us</a></li>\n");
+      out.write("         <li class=\"active\"><a href=\"contactus.jsp\">Contact Us</a></li>\n");
+      out.write("       \n");
+      out.write("        <li class=\"dropdown\">\n");
+      out.write("          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Products <span class=\"caret\"></span></a>\n");
+      out.write("          <ul class=\"dropdown-menu\" role=\"menu\">\n");
+      out.write("            <li><a href=\"#\">veg</a></li>\n");
+      out.write("            <li class=\"divider\"></li>\n");
+      out.write("            <li><a href=\"#\">non veg</a></li>\n");
+      out.write("            <li class=\"divider\"></li>\n");
+      out.write("          </ul>\n");
+      out.write("        </li>\n");
+      out.write("      </ul>\n");
+      out.write("      <ul class=\"nav navbar-nav navbar-right\">\n");
+      out.write("        <li><p class=\"navbar-text\">Already have an account?</p></li>\n");
+      out.write("        <li class=\"dropdown\">\n");
+      out.write("          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"><b>Login</b> <span class=\"caret\"></span></a>\n");
+      out.write("            <ul id=\"login-dp\" class=\"dropdown-menu\">\n");
+      out.write("                <li>\n");
+      out.write("\t\t <div class=\"row\">\n");
+      out.write("\t\t<div class=\"col-md-12\">\n");
+      out.write("\t\tLogin via\n");
+      out.write("\t\t<div class=\"social-buttons\">\n");
+      out.write("\t\t<a href=\"https://www.facebook.com\" class=\"btn btn-fb\"><i class=\"fa fa-facebook\"></i> Facebook </a>\n");
+      out.write("\t\t<a href=\"https://www.twitter.com\" class=\"btn btn-tw\"><i class=\"fa fa-twitter\"></i> Twitter</a>\n");
+      out.write("                </div>\n");
+      out.write("                 or\n");
+      out.write("\t\t<form class=\"form\" role=\"form\" method=\"post\" action=\"login\" accept-charset=\"UTF-8\" id=\"login-nav\">\n");
+      out.write("\t\t<div class=\"form-group\">\n");
+      out.write("\t\t <label class=\"sr-only\" for=\"exampleInputEmail2\">Email address</label>\n");
+      out.write("\t\t <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"Email address\" required>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div class=\"form-group\">\n");
+      out.write("\t\t<label class=\"sr-only\" for=\"exampleInputPassword2\">Password</label>\n");
+      out.write("\t\t<input type=\"password\" class=\"form-control\" id=\"exampleInputPassword2\" placeholder=\"Password\" required>\n");
+      out.write("                <div class=\"help-block text-right\"><a href=\"\">Forget the password ?</a></div>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div class=\"form-group\">\n");
+      out.write("\t\t <button type=\"submit\" class=\"btn btn-primary btn-block\">Sign in</button>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t\n");
+      out.write("                <div class=\"checkbox\">\n");
+      out.write("\t\t<label>\n");
+      out.write("\t\t<input type=\"checkbox\"> keep me logged-in\n");
+      out.write("\t\t</label>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t</form>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div class=\"bottom text-center\">\n");
+      out.write("\t\tNew here ? <a href=\"user1.jsp\"><b>Join Us</b></a>\n");
+      out.write("                </div>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t</li>\n");
+      out.write("\t\t</ul>\n");
+      out.write("        </li>\n");
+      out.write("      </ul>\n");
+      out.write("    </div><!-- /.navbar-collapse -->\n");
+      out.write("  </div><!-- /.container-fluid -->\n");
+      out.write("</nav>\n");
+      out.write("</div>\n");
+      out.write("<div id=\"contact_us\">\n");
+      out.write("        \n");
+      out.write("  <!-- Contact Section -->\n");
+      out.write("  <div class=\"w3-padding-64 w3-content w3-text-grey\" id=\"contact\">\n");
+      out.write("    <h2 class=\"w3-text-light-grey\">Contact Me</h2>\n");
+      out.write("    <hr style=\"width:200px\" class=\"w3-opacity\">\n");
+      out.write("\n");
+      out.write("    <div class=\"w3-section\">\n");
+      out.write("        <p style=\"color: white;\"><i class=\"fa fa-map-marker fa-fw w3-text-black w3-xxlarge w3-margin-right\"></i> New Delhi, India</p>\n");
+      out.write("      <p style=\"color: white;\"><i class=\"fa fa-phone fa-fw w3-text-black w3-xxlarge w3-margin-right\"></i> Phone: +918527026786</p>\n");
+      out.write("      <p style=\"color: white;\"><i class=\"fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right\"> </i> Email: atanvir266@gmail.com</p>\n");
+      out.write("    </div><br>\n");
+      out.write("    <p style=\"color: white; \">Lets get in touch. Send me a message:</p>\n");
+      out.write("\n");
+      out.write("    <form action=\"#\" target=\"_blank\">\n");
+      out.write("      <p style=\"color: black;\"><input class=\"w3-input w3-padding-16\" type=\"text\" placeholder=\"Name\" required name=\"Name\"></p>\n");
+      out.write("      <p style=\"color: black;\"><input class=\"w3-input w3-padding-16\" type=\"text\" placeholder=\"Email\" required name=\"Email\"></p>\n");
+      out.write("      <p style=\"color: black;\"><input class=\"w3-input w3-padding-16\" type=\"text\" placeholder=\"Subject\" required name=\"Subject\"></p>\n");
+      out.write("      <p style=\"color: black;\"><input class=\"w3-input w3-padding-16\" type=\"text\" placeholder=\"Message\" required name=\"Message\"></p>\n");
+      out.write("      <p>\n");
+      out.write("        <button class=\"w3-button w3-light-grey w3-padding-large\" type=\"submit\">\n");
+      out.write("          <i class=\"fa fa-paper-plane\"></i> SEND MESSAGE\n");
+      out.write("        </button>\n");
+      out.write("      </p>\n");
+      out.write("    </form>\n");
+      out.write("  \n");
+      out.write("  </div>\n");
+      out.write("  \n");
+      out.write("    <!-- Footer -->\n");
+      out.write(" </div>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
